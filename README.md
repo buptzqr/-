@@ -1,6 +1,6 @@
 # 使用c++实现常见的设计模式
 ## 说明
-这是我学习李建忠老师的C++设计模式的笔记，其中添加了我的一些思考。
+这是我学习李建忠老师的C++设计模式的笔记，其中添加了我的一些思考。old文件夹中没有使用设计模式的代码写法，new文件夹中是应用设计模式的写法。
 在b站可以获得[视频课程](https://www.bilibili.com/video/BV1kW411P7KS?p=3)
 在百度网盘可以下载[课件](https://pan.baidu.com/s/1_LgOnHLVWHwt7Cfd3HMtbw)
 提取码：hecw
