@@ -12,4 +12,5 @@
 - 应用场景是比如要写一个文件分割器，需要写一个进度条的功能，对于不同的平台，进度条有不同的实现方法，比如对于console可能就是...，对于windows可能就是常见的那种进度条。所以观察者模式的做法就是对实现不同的进度条的类，共同继承自一个抽象类（iprogress），实现相关方法，这个抽象类就是observer。
 - 对应类图attach是addProgress，detach是removeProgress，notify是onProgress，在这里我们没有把这三个方法放到父类中。也就是subject和concreteSubject合二为一了。
 - concretObserver相当于consoleNotifer和mainform。
-## [类图](https://github.com/buptzqr/CPP-Design-Patterns/blob/master/IMAGE/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F/%E7%B1%BB%E5%9B%BE.png)
+## 类图
+![image](https://github.com/buptzqr/CPP-Design-Patterns/blob/master/IMAGE/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F/%E7%B1%BB%E5%9B%BE.png)
